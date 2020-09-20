@@ -4,7 +4,7 @@
 
     <div class="jumbotron mt" style="background: rgba(0, 0, 0, 0.3)">
         <h1 class="display-4 font-color">You can reach/learn more about me via:</h1>
-        <div class="row mt stack-col">
+        <div class="row mt stack-col" style="margin-top: 30px">
             <div class="col-sm">
                 <a href="https://github.com/AmirAlagar" style="text-decoration:none" target="_blank">
                     <img src="images/github_logo.png" class="stack-logo">

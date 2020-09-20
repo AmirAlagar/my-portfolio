@@ -8,7 +8,7 @@
         <a class="nav-link font-color" href="{{ route('show.home') }}">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link font-color" href="#">My Projects</a>
+        <a class="nav-link font-color" href="{{ route('show.projects') }}">My Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link font-color" href="{{ route('show.resume') }}" target="_blank">Resume</a>
