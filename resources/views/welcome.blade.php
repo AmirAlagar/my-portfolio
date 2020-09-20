@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Home')
+@section('title')
 @section('content')
 
     <div class="jumbotron mt" style="background: rgba(0, 0, 0, 0.3)">

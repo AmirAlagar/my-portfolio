@@ -13,6 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PortfolioController@home')->name('show.home');
+Route::get('/AmirYahyaAlagarResume', 'PortfolioController@resume')->name('show.resume');
