@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PortfolioController@home')->name('show.home');
 Route::get('/AmirYahyaAlagarResume', 'PortfolioController@resume')->name('show.resume');
+Route::get('/contact-me', 'PortfolioController@contact')->name('show.contact');

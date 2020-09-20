@@ -14,7 +14,7 @@
         <a class="nav-link font-color" href="{{ route('show.resume') }}" target="_blank">Resume</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link font-color" href="#">Contact Me</a>
+        <a class="nav-link font-color" href="{{ route('show.contact') }}">Contact Me</a>
       </li>
     </ul>
   </div>

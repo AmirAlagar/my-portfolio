@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class PortfolioController extends Controller
 {
+    
     public function home(){
         return view('welcome');
     }
@@ -13,6 +14,10 @@ class PortfolioController extends Controller
     public function resume(){
         $resume = 'files/AmirYahyaAlagar-Resume.pdf';
         return response()->file($resume);
+    }
+
+    public function contact(){
+        return view('contact');
     }
 
 }
