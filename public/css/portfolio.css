@@ -1,0 +1,48 @@
+.content-margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .content-margin {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+} 
+
+
+.stack-logo{
+    height: 100px;
+    width: 100px;
+}
+
+li{
+    font-size: 25px;
+}
+
+.font-desc{
+    font-size: 25px;
+}
+
+.font-color{
+    color: #f1f3f4;
+}
+
+.custom-toggler{
+    border-color: #f1f3f4;
+
+}
+
+.custom-toggler .navbar-toggler-icon { 
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(241, 243, 244)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.contact-font{
+    font-size: 25px;
+}
+

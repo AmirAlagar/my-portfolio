@@ -10,15 +10,20 @@
        
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/portfolio.css') }}" rel="stylesheet" type="text/css">
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" ></script>
-        
+        <title>Amir Yahya Alagar @yield('title')</title>
     </head>
     <body>
         <main>
             <div class="container-fluid">
                 @include('layouts.navbar')
+                <div class="content-margin">
+                    @section('content')
+                    @show
+                </div>
             </div>
         </main>
     </body>
