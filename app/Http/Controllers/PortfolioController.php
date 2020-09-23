@@ -12,7 +12,7 @@ class PortfolioController extends Controller
     }
 
     public function resume(){
-        $resume = 'files/AmirYahyaAlagar-Resume.pdf';
+        $resume = 'files/PortfolioResume.pdf';
         return response()->file($resume);
     }
 

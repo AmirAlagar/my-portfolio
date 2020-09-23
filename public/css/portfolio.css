@@ -46,3 +46,22 @@ li{
     font-size: 25px;
 }
 
+.mynav a{
+    margin:15px;
+    padding-right: 5px;
+    padding-right: 5px;
+}
+
+.mynav a:hover {
+    color: #1db9d9;
+    background-color: #222d3a;
+    opacity: 100;
+    border-radius: 10px;
+}
+
+.active {
+    color: #1db9d9;
+    background-color: #222d3a;
+    opacity: 100;
+    border-radius: 10px;
+}
