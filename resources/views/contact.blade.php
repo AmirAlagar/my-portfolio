@@ -25,7 +25,7 @@
             </div>
             <div class="col-sm">
                 <a href="https://www.linkedin.com/in/amir-yahya-alagar-7281471b5/" style="text-decoration:none" target="_blank">
-                    <img src="{{ asset('images/linkedIn_logo.png.png') }}" class="stack-logo">
+                    <img src="{{ asset('images/linkedIn_logo.png') }}" class="stack-logo">
                     <span class="lead font-color contact-font">LinkedIn</span>
                 </a>
             </div>
