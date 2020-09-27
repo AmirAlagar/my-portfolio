@@ -8,31 +8,31 @@
         <p class="lead font-color font-desc">Even though I specialize in Coding, I also love to do some Hardware specifically PC Building and Troubleshooting.</p>
         <p class="lead font-color font-desc">My Stacks: </p>
         <div class="row mt stack-col">
-            <div class="col-sm">
-                <img src="images/laravel_logo.png" class="stack-logo">
+            <div class="col">
+                <img src="{{ asset('images/laravel_logo.png') }}" class="stack-logo">
             </div>
-            <div class="col-sm">
-                <img src="images/html_logo.png" class="stack-logo">
+            <div class="col">
+                <img src="{{ asset('images/html_logo.png') }}" class="stack-logo">
             </div>
-            <div class="col-sm">
-                <img src="images/css_logo.png" class="stack-logo">
+            <div class="col">
+                <img src="{{ asset('images/css_logo.png') }}" class="stack-logo">
             </div>
-            <div class="col-sm">
-                <img src="images/js_logo.png" class="stack-logo">
+            <div class="col">
+                <img src="{{ asset('images/js_logo.png') }}" class="stack-logo">
             </div>
-            <div class="col-sm">
-                <img src="images/mysql_logo.png" class="stack-logo">
+            <div class="col">
+                <img src="{{ asset('images/mysql_logo.png') }}" class="stack-logo" style="width:400px">
             </div>
         </div>
         <div class="row mt stack-col" style="margin-top: 20px">
-            <div class="col-sm">
-                <img src="images/tw_logo.png" class="stack-logo">
+            <div class="col">
+                <img src="{{ asset('images/tw_logo.png') }}" class="stack-logo" style="width:400px">
             </div>
-            <div class="col-sm">
-                <img src="images/bootstrap_logo.png" class="stack-logo">
+            <div class="col">
+                <img src="{{ asset('images/bootstrap_logo.png') }}" class="stack-logo">
             </div>
-            <div class="col-sm">
-                <img src="images/git_logo.png" class="stack-logo">
+            <div class="col">
+                <img src="{{ asset('images/git_logo.png') }}" class="stack-logo">
             </div>
         </div>
     </div>

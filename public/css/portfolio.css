@@ -17,6 +17,11 @@
 
 
 .stack-logo{
+    height: 200px;
+    width: 200px;
+}
+
+.contact-logo{
     height: 100px;
     width: 100px;
 }
