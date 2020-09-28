@@ -7,7 +7,7 @@
         <p class="lead font-color font-desc">Hi there! I'm a Junior Web Developer who uses Laravel and always eager to learn new things. I enjoy working with a team and tend to be more productive when I bond with them.</p>
         <p class="lead font-color font-desc">Even though I specialize in Coding, I also love to do some Hardware specifically PC Building and Troubleshooting.</p>
         <p class="lead font-color font-desc">My Stacks: </p>
-        <div class="row mt stack-col">
+        <div class="row mt">
             <div class="col">
                 <img src="{{ asset('images/laravel_logo.png') }}" class="stack-logo">
             </div>
@@ -20,13 +20,13 @@
             <div class="col">
                 <img src="{{ asset('images/js_logo.png') }}" class="stack-logo">
             </div>
-            <div class="col">
-                <img src="{{ asset('images/mysql_logo.png') }}" class="stack-logo" style="width:400px">
-            </div>
         </div>
-        <div class="row mt stack-col" style="margin-top: 20px">
+        <div class="row mt" style="margin-top: 20px">
             <div class="col">
-                <img src="{{ asset('images/tw_logo.png') }}" class="stack-logo" style="width:400px">
+                <img src="{{ asset('images/mysql_logo.png') }}" class="stack-logo stack-logo-l">
+            </div>
+            <div class="col">
+                <img src="{{ asset('images/tw_logo.png') }}" class="stack-logo stack-logo-l">
             </div>
             <div class="col">
                 <img src="{{ asset('images/bootstrap_logo.png') }}" class="stack-logo">
